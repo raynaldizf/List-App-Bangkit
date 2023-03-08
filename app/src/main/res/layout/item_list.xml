@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    app:cardPreventCornerOverlap="false"
+    android:layout_marginStart="1dp"
+    android:layout_marginEnd="1dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+<!--        <TextView-->
+<!--            android:layout_toRightOf="@id/images"-->
+<!--            android:id="@+id/txtJudul"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Judul : "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+
+        <TextView
+            android:layout_toRightOf="@id/images"
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirates Of Caribean"
+            android:textColor = "?android:textColorPrimary"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+<!--        <TextView-->
+<!--            android:layout_below="@id/judul"-->
+<!--            android:layout_toRightOf="@id/images"-->
+<!--            android:id="@+id/txtDirector"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Director : "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_toRightOf="@id/txtDirector"-->
+<!--            android:layout_below="@id/judul"-->
+<!--            android:id="@+id/director"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Jalan Jalan Gan"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+
+
+<!--        <TextView-->
+<!--            android:layout_toRightOf="@id/images"-->
+<!--            android:layout_below="@id/director"-->
+<!--            android:id="@+id/txtWriter"-->
+<!--            android:text="Writer : "-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_toRightOf="@id/txtWriter"-->
+<!--            android:layout_below="@id/director"-->
+<!--            android:id="@+id/writer"-->
+<!--            android:text="Allen "-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txtSynopsis"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Synopsis : "-->
+<!--            android:layout_below="@id/judul"-->
+<!--            android:layout_toRightOf="@id/images"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+
+<!--            />-->
+
+        <TextView
+            android:id="@+id/synopsis"
+            android:textColor="?android:textColorHighlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="become a classic film - it's even IMDb's top-rated movie of all time - but did you know it almost had an entirely different cast behind those legendary bars?"
+            android:layout_below="@id/judul"
+            android:layout_toRightOf="@id/images"
+            android:textSize="16sp"
+
+            />
+
+        <ImageView
+            android:layout_marginEnd="20dp"
+            android:id="@+id/images"
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
